@@ -32,12 +32,6 @@ import argparse
 import copy
 import json
 
-# to help you get started, we have provided some boiler plate code
-
-# Hello, I struggled on the logic to get the overall shortest path to fill the shopping cart.
-# I'm comfortable with my logic otherwise and I would appreciate it if you would send me
-# an approximate way to fulfill the requirement for this exercise. brent.allen.foster@outlook.com
-
 def satisfy_shopping_list(shopping_list_json, inventory_json):
     # find out minimum combination of stores that would satisfy shopping list
     shopping_list_dict = json.loads(json.dumps(shopping_list_json))
